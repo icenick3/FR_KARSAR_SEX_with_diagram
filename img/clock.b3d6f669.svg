@@ -1,0 +1,57 @@
+<svg width="86" height="80" viewBox="0 0 86 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+<style>
+@keyframes tik_tak {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg)
+  }
+}
+
+.minutes {
+  transform-origin: center;
+  animation: tik_tak 1s infinite linear;
+  
+}
+</style>
+<path d="M81.5 40C81.5 61.2114 63.6439 78.5 41.5 78.5C19.3561 78.5 1.5 61.2114 1.5 40C1.5 18.7886 19.3561 1.5 41.5 1.5C63.6439 1.5 81.5 18.7886 81.5 40Z" stroke="#EA375C" stroke-width="3"/>
+<path d="M84.5 40C84.5 61.2114 66.6439 78.5 44.5 78.5C22.3561 78.5 4.5 61.2114 4.5 40C4.5 18.7886 22.3561 1.5 44.5 1.5C66.6439 1.5 84.5 18.7886 84.5 40Z" stroke="#6DF1EF" stroke-width="3"/>
+<g>
+<animateTransform attributeName="transform"
+            type="rotate"
+            from="0 39.5 41" to="360 39.5 41"
+             dur="10s"
+            repeatCount="indefinite"
+         />
+<line x1="39.5" y1="41" x2="39.5" y2="16" stroke="#EA375C" stroke-width="3" stroke-linecap='round'/>
+</g>
+<g>
+<animateTransform attributeName="transform"
+            type="rotate"
+            from="0 41.5 41" to="360 41.5 41"
+             dur="10s"
+            repeatCount="indefinite"
+         />
+<line x1="41.5" y1="41" x2="41.5" y2="16" stroke="#6DF1EF" stroke-width="3" stroke-linecap='round'/>
+</g>
+<g>
+  <animateTransform attributeName="transform"
+            type="rotate"
+            from="0 39.5 41" to="360 39.5 41"
+             dur="1s"
+            repeatCount="indefinite"
+         />
+
+  <line x1="39.5" y1="41" x2="60.8823" y2="55.7869" stroke="#EA375C" stroke-width="3" stroke-linecap='round'/>
+</g>
+<g>
+  <animateTransform attributeName="transform"
+            type="rotate"
+            from="0 41.5 41" to="360 41.5 41"
+             dur="1s"
+            repeatCount="indefinite"
+         />
+  <line x1="41.5" y1="41" x2="62.8823" y2="55.7869" stroke="#6DF1EF" stroke-width="3" stroke-linecap='round'/>
+</g>
+</svg>

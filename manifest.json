@@ -1,0 +1,9 @@
+{
+    "main_file":"index.php",
+    "mobstra_pixel":"<!-- Mobstra pixel -->",
+    "google_tag_script":"<!-- Google tag script -->",
+    "google_tag_iframe":"<!-- Google tag iframe -->",
+    "fb_pixel_script":"<!-- Facebook Pixel script -->",
+    "fb_pixel_img":"<!-- Facebook Pixel image -->"
+}
+  
